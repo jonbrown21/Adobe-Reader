@@ -8,3 +8,10 @@ There has been a lingering issue with running Network Accounts and letting the u
 This is quite frustrating and for the System Admins trying to use Network Accounts, waiting for Adobe to fix this issue has been a waiting game that so far has not come to an end. The obvious solution of course that I tell my users is to use Preview instead of Adobe Acrobat Reader to read their PDF files. This does solve their problems in the short term however my users quickly point out that they need Adobe Acrobat Pro which causes the same issue. Since Preview is no substitution for Adobe Acrobat Pro, this poses a real challenge for the user and the System administrator.
 
 I have been scouring the web trying to find a solution and finally I got a break. A user on an Adobe Forum post, posted a temporary fix that worked wonders for my problem.
+
+Usage
+============
+Run the code using an elevated permision level in 10.6.8. Chmod the script to 755 permission level for propper results.
+
+
+I can verify that the solution works well. The script runs, creates the appropriate symlinks and then allows the program to continue to function. The files are created locally for the network user. The only drawback to this is that if you have temporary accounts using computers you will need to clean-up these files from time to time. If the users move about from workstation to workstation then the files will be re-created for that user on multiple machines. These are minor inconveniences that are less noticeable for the user and enable them to get their work done while using Network based accounts in OSX. Let us know what your experiences have been, and if this solution works for you!
