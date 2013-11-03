@@ -14,4 +14,8 @@ Usage
 Run the code using an elevated permision level in 10.6.8. Chmod the script to 755 permission level for propper results.
 
 
-I can verify that the solution works well. The script runs, creates the appropriate symlinks and then allows the program to continue to function. The files are created locally for the network user. The only drawback to this is that if you have temporary accounts using computers you will need to clean-up these files from time to time. If the users move about from workstation to workstation then the files will be re-created for that user on multiple machines. These are minor inconveniences that are less noticeable for the user and enable them to get their work done while using Network based accounts in OSX. Let us know what your experiences have been, and if this solution works for you!
+Reference
+============
+Reference my Blog post here for further information and to get answers to questions.
+
+http://www.jonbrown.org/adobe-reader-network-accounts-10-6-8-server/
